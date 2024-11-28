@@ -124,7 +124,7 @@ function handleClick(project) {
           window.open('https://www.swiggy.com', '_blank');  // Replace with actual link
           break;
       case 'Assign':
-          window.open('https://www.swiggy.com', '_blank'); 
+          window.open('https://genpact-frontend.vercel.app', '_blank'); 
           break;
       case 'Business':
           window.open('https://product-manager-omega.vercel.app/', '_blank'); 
