@@ -126,10 +126,10 @@ function handleClick(project) {
       case 'Assign':
           window.open('https://genpact-frontend.vercel.app', '_blank'); 
           break;
-      case 'Business':
+      case 'pm':
           window.open('https://product-manager-omega.vercel.app/', '_blank'); 
           break;
-      case 'medico':
+      case 'trim':
           window.open('https://www.netmeds.com/?srsltid=AfmBOoqgMuBIQPbtjNtimIo9giCQK6yDSGYSjW39fGw3P3_63TAYCes4', '_blank'); 
           break;
       default:
