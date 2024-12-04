@@ -658,3 +658,29 @@ footer{
         width: 100%;
     }
 }
+
+.typedText {
+    display: inline-block; /* Keeps it inline */
+    white-space: nowrap; /* Prevents wrapping */
+    overflow: hidden; /* Ensures no overflow is visible */
+    text-transform: capitalize; /* Keeps the text capitalization */
+    color: var(--text-color-third);
+    font-size: 2rem; /* Adjust font size as needed */
+    font-weight: 600; /* Makes the text bold */
+    text-align: left; /* Aligns text properly */
+    width: auto; /* Ensures it adapts to content */
+}
+
+.featured-image iframe {
+    width: 100%; /* Ensure it takes full width */
+    height: auto; /* Maintain aspect ratio */
+    border: none; /* Remove border around iframe */
+    object-fit: cover; /* Ensures the iframe fills the container */
+}
+
+.featured-image iframe {
+    width: 100%; /* Ensure it takes full width */
+    height: auto; /* Maintain aspect ratio */
+    border: none; /* Remove border around iframe */
+    object-fit: cover; /* Ensures the iframe fills the container */
+}
